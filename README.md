@@ -19,4 +19,4 @@ Steps:
     ```bash
     addr="0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71"
     npx hardhat verify --network mainnet $addr "ConstitutionDAO" "PEOPLE"
-      
+    ```
