@@ -48,7 +48,7 @@ module.exports = {
         runs: 10000,
       },
     },
-  // End Warning /////////////
+    // End Warning /////////////
   },
   mocha: {
     bail: true,

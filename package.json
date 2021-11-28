@@ -1,11 +1,11 @@
 {
-  "name": "@jbx-protocol/contracts-v1",
+  "name": "@jbx-protocol/v1-erc20-verify",
   "bugs": {
-    "url": "https://github.com/jbx-protocol/juice-contracts-v1/issues"
+    "url": "https://github.com/jbx-protocol/juice-v1-erc20-verify/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbx-protocol/juice-contracts-v1/"
+    "url": "https://github.com/jbx-protocol/juice-v1-erc20-verify/"
   },
   "version": "0.0.1",
   "license": "MIT",
@@ -43,10 +43,6 @@
   ],
   "scripts": {
     "chain": "hardhat node",
-    "account": "hardhat account",
-    "test": "mocha -r esm --bail",
-    "test:unit": "mocha -r esm --grep \"Unit\" --bail",
-    "test:integration": "mocha -r esm --grep \"Integration\" --bail",
     "clean": "rimraf ./cache && rimraf ./artifacts",
     "compile": "yarn clean && hardhat compile",
     "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
