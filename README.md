@@ -1,13 +1,13 @@
-# juice-v1-erc20-verify
+# candy-v1-erc20-verify
 
 "It ain't much, but it's honest work"
 
-This is a utility to verify ERC-20 tokens from Juicebox V1. 
+This is a utility to verify ERC-20 tokens from Candybox V1. 
 
 Steps:
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/jbx-protocol/juice-v1-erc20-verify.git
+    git clone https://github.com/candyboxdao/candy-v1-erc20-verify.git
     ```
 2.  Create a `./env` file mirroring `./example.env`. You will need Infura and Etherscan secrets.
 3.  Run the following:
